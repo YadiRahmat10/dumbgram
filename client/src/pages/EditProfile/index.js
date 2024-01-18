@@ -95,6 +95,7 @@ export default function EditProfile() {
     if (e.target.type === "file") {
       const url = URL.createObjectURL(e.target.files[0]);
       setPreview(url);
+      
     }
   };
 
